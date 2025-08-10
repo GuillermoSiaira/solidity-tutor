@@ -13,13 +13,13 @@
     "tutorial",
     "learning"
   ],
-  "homepage": "https://github.com/YOUR_USERNAME/solidity-tutor#readme",
+  "homepage": "https://github.com/GuillermoSiaira/solidity-tutor#readme",
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/solidity-tutor/issues"
+    "url": "https://github.com/GuillermoSiaira/solidity-tutor/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/solidity-tutor.git"
+    "url": "https://github.com/GuillermoSiaira/solidity-tutor.git"
   },
   "license": "MIT",
   "author": "Your Name",
@@ -32,6 +32,14 @@
   },
   "dependencies": {
     "@ai-sdk/groq": "latest",
+    "@radix-ui/react-avatar": "^1.0.4",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-progress": "^1.0.3",
+    "@radix-ui/react-scroll-area": "^1.0.5",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@radix-ui/react-toast": "^1.1.5",
     "@supabase/supabase-js": "latest",
     "@vercel/blob": "latest",
     "ai": "latest",
@@ -43,17 +51,21 @@
     "next-themes": "latest",
     "react": "^18",
     "react-dom": "^18",
+    "react-resizable-panels": "^2.0.10",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
-    "zod": "latest"
+    "vaul": "^0.9.0",
+    "zod": "^4.0.17"
   },
   "devDependencies": {
     "@types/node": "^22",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.16",
     "postcss": "^8.5",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5"
   }
 }
