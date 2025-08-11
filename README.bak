@@ -1,0 +1,9 @@
+﻿![Solidity Tutor](public/screenshot.png)
+
+**Live demo:** <https://solidity-tutor.vercel.app>
+
+Features: **Solidity code editor** · **AI tutor** · **Tx trace** (funciona sin integraciones; opcional Groq/Supabase/Blob)  
+Tech: **Next.js** · **TypeScript**
+
+---
+
